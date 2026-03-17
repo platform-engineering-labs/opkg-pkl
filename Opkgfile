@@ -1,0 +1,11 @@
+amends "orbital:/opkg.pkl"
+
+import "pkl:semver"
+
+name = "pkl"
+version =  semver.Version(read("env:VERSION"))
+publisher = "platform.engineering"
+originator = "pkl-lang.org"
+license = "Apache 2.0"
+summary = "pkl configuration as code language"
+description = "Configuration that is Programmable, Scalable, and Safe"
