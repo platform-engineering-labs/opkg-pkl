@@ -45,7 +45,7 @@ jobs:
 
       - name: Install Orbital
         run: |
-          bash -c "$(curl -fsSL https://hub.platform.engineering/get/setup.sh)" -- install orbital
+          bash -c "$(curl -fsSL https://hub.platform.engineering/get/setup.sh)" -- install --yes orbital
 
       - name: Add PEL to PATH
         run: echo "/opt/pel/bin" >> $GITHUB_PATH
